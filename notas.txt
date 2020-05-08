@@ -1,12 +1,17 @@
-- Banco de Dados:
-  - Produtos {}
-    - Estoque {}
-  - Cliente {}
-    - Telefone {}
-    - Endereco {}
-      - Logradouro {}
-      - Bairro {}
-      - Cidade {}
-      - Estado {}
-  - Venda {}
-  
+ - O custo deve ser atualizado tirando a média da quantidade em estoque x custo antigo + qtd. nova x novo custo / total de prod.
+ - A qual tabela pertence o preço?
+ 
+<> Banco de Dados:
+  > Produtos {id_prod, produto, id_marca, id_modelo, descricao}
+    > Marca {id_marca, marca}
+    > Modelo {id_modelo, modelo}
+    > Estoque {id_estoque, id_prod, qtd_estoque}
+  > Cliente {id_cli, id_endereco, numero, complemento, nome, cpf}
+    > Telefone {id_tel, id_cli, cod_area, telefone}
+    > Endereco {cep, id_log, id_bairro, id_cidade, id_estado}
+      > Logradouro {id_log, logradouro}
+      > Bairro {id_bairro, bairro}
+      > Cidade {id_cidade, cidade}
+      > Estado {id_estado, estado}
+  > Venda {id_venda, id_cli, preco_total}
+    > Prod_Venda {id_prod_venda, id_venda, id_prod, qtd_venda, preco_venda}
