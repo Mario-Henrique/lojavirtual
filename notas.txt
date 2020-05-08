@@ -1,0 +1,12 @@
+- Banco de Dados:
+  - Produtos {}
+    - Estoque {}
+  - Cliente {}
+    - Telefone {}
+    - Endereco {}
+      - Logradouro {}
+      - Bairro {}
+      - Cidade {}
+      - Estado {}
+  - Venda {}
+  
