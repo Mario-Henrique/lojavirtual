@@ -14,3 +14,18 @@
       > Estado {id_estado, estado}
   > Venda {id_venda, id_cli, preco_total}
     > Prod_Venda {id_prod_venda, id_venda, id_prod, qtd_venda, preco_venda}
+
+<> Ações do Banco de Dados:
+  > Pesquisar por:
+    > Cliente
+      > CPF
+      > Nome
+      > Telefone
+    > Produto
+      > Produto
+      > Marca
+      > Modelo
+    > Venda
+      > Todas as vendas de um determinado cliente
+      > Todas as vendas de um determinado produto
+      > 
