@@ -1,5 +1,4 @@
  - O custo deve ser atualizado tirando a média da quantidade em estoque x custo antigo + qtd. nova x novo custo / total de prod.
- - A qual tabela pertence o preço?
  
 <> Banco de Dados:
   > Produtos {id_prod, produto, id_marca, id_modelo, descricao}
