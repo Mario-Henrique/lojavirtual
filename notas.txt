@@ -5,7 +5,7 @@
   > Produtos {id_prod, produto, id_marca, id_modelo, descricao}
     > Marca {id_marca, marca}
     > Modelo {id_modelo, modelo}
-    > Estoque {id_estoque, id_prod, qtd_estoque}
+    > Estoque {id_estoque, id_prod, qtd_estoque, custo, venda}
   > Cliente {id_cli, id_endereco, numero, complemento, nome, cpf}
     > Telefone {id_tel, id_cli, cod_area, telefone}
     > Endereco {cep, id_log, id_bairro, id_cidade, id_estado}
